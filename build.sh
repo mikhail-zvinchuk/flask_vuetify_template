@@ -2,7 +2,7 @@
 
 # Navigate to the ui folder and run bun build
 cd ui || { echo "Failed to change directory to ui"; exit 1; }
-bun build
+bun run build
 
 # Check if bun build was successful
 if [ $? -ne 0 ]; then
